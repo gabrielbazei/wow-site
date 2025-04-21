@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function enviarSinal(id,mac) {
         console.log("Sending magic packet...");
-        var url = 'http://192.168.0.3:5000/id';
+        var url = 'https://wakeonwan-bazei.azurewebsites.net/id';
         fetch(url, {
             method: 'POST',
             headers: {
